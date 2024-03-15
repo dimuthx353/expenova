@@ -56,7 +56,10 @@ svg text {
 
 @media only screen and (max-width: 500px) {
   body {
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
+  }
+
+  .display-4 {
   }
 }
