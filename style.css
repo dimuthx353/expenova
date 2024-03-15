@@ -60,6 +60,7 @@ svg text {
     overflow: hidden;
   }
 
-  .display-4 {
+  .font-size {
+    font-size: 25px;
   }
 }
