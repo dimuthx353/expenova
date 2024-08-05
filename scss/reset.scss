@@ -1,0 +1,47 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Workbench:BLED@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Workbench&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Truculenta:opsz,wght@12..72,100..900&family=Workbench:BLED@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+// public classes
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px;
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px;
+}
+
+/* Shadow */
+.my-shadow {
+  /* Apply box shadow */
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/* Custom Fonts */
+.expenova-custom {
+  font-family: "Truculenta", sans-serif;
+}
+
+i{
+  cursor: pointer;
+}

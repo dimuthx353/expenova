@@ -1,0 +1,36 @@
+.my-location-about-us {
+  color: #007acc !important;
+}
+
+.img-cutz {
+  border-radius: 50%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card-body-cutz {
+  height: 240px;
+  border-top: 4px solid hsla(208, 43%, 17%, 0.268);
+  margin-top: 6px;
+}
+.card-body-cutz > p {
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-muted {
+  color: #aaa;
+}
+
+.link-muted:hover {
+  color: #1266f1;
+}
+
+@media only screen and (max-width: 580px) {
+  .accordion {
+    width: 100%;
+  }
+}

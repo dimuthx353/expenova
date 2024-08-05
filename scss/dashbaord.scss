@@ -1,0 +1,38 @@
+.close-btn{
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+
+  &:hover{
+    background-color:rgba(172, 255, 47, 0.54);
+color: red;
+
+  }
+}
+
+.my-location-dashboard{
+  color: #007acc !important;
+}
+
+
+.close-btn {
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+.close-btn:hover {
+  background-color: rgba(172, 255, 47, 0.54);
+  color: red;
+}
+
+.entry {
+  margin: 0 auto;
+}
+
+@media (max-width: 777px) {
+  .entry {
+    max-width: 500px;
+  }
+}
+
+
+
+

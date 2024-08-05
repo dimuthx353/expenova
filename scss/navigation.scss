@@ -1,0 +1,108 @@
+nav {
+  border-bottom: 2px solid #060860f0;
+
+
+  .logo {
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 10px;
+    border-bottom: 2px solid transparent;
+    border-right: none;
+    animation: change-border-color 5s ease-out infinite;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 10px;
+    border-bottom: 2px solid transparent;
+    border-left: none;
+    animation: change-border-color-2 5s ease-in-out infinite;
+  }
+
+  svg {
+    width: 200px;
+    height: 50px;
+    letter-spacing: 1px;
+  }
+
+  svg text {
+    animation: stroke 4s infinite;
+    stroke-width: 2;
+    stroke: black;
+    background: black;
+  }
+}
+
+@keyframes change-border-color-2 {
+  0% {
+    width: 0%;
+    border-color: rgba(255, 255, 255, 0.671);
+  }
+  100% {
+    width: 100%;
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+@keyframes change-border-color {
+  0% {
+    width: 0%;
+    border-color: rgba(237, 237, 237, 0.671);
+  }
+  25% {
+    width: 25%;
+    border-color: rgb(253, 255, 255);
+  }
+  50% {
+    width: 50%;
+    border-color: rgb(6, 122, 99);
+  }
+  75% {
+    width: 75%;
+    border-color: rgb(221, 217, 209);
+  }
+  100% {
+    width: 100%;
+    border-color: rgb(16, 124, 255);
+  }
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgb(137, 191, 238);
+    stroke: #fff;
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: black;
+    stroke: #fff;
+  }
+  80% {
+    fill: black;
+    stroke: #fff;
+    stroke-width: 1;
+  }
+  100% {
+    fill: rgb(251, 251, 251);
+    stroke: #fff;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+} /*# sourceMappingURL=navigation.css.map */
+

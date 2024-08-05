@@ -1,0 +1,24 @@
+.removeEx {
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-cutz {
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+}
+
+.icon-section i {
+  transition: all 0.2s ease-in;
+}
+.icon-section i:hover {
+  border-bottom: 1px solid #54B4D3;
+  padding: 5px;
+  scale: 1.5;
+  color: #3B71CA;
+}
